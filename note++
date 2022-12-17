@@ -1,0 +1,15 @@
+Step by step process-
+----------------------------------------
+
+1) Set up Emails in .env
+2) Set up DB in .env
+3) Create & write code in User_verification migration
+4) Add "is_email_verified" field on fillable array in User model and create new model call UserVerify
+5) Create Auth\AuthController
+6) Create Route
+7) Write Codes in AuthController
+8) Migrate to DB
+9) Create IsVerify Middleware
+10) Write code on Middleware
+11) Set up Middleware in Karnel
+12) Set up & Write Codes on Views
